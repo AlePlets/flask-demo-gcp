@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cadastro</title>
+    <style>
+        body { font-family: Arial; }
+        input { margin-bottom: 8px; display: block; width: 300px; }
+    </style>
+</head>
+<body>
+    <h2>Cadastro de Usuário</h2>
+    <form method="POST">
+        Nome completo: <input type="text" name="full_name" required>
+        CPF: <input type="text" name="cpf" required>
+        E-mail: <input type="email" name="email" required>
+        Senha: <input type="password" name="password" required>
+        Endereço: <input type="text" name="address" required>
+        Cidade: <input type="text" name="city" required>
+        Bairro: <input type="text" name="neighborhood" required>
+        Telefone: <input type="text" name="phone" required>
+        <input type="submit" value="Cadastrar">
+    </form>
+    <a href="/">Voltar</a>
+</body>
+</html>
