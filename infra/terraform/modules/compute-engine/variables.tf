@@ -10,7 +10,7 @@ variable "instance_name" {
 
 variable "machine_type" {
   type        = string
-  default     = "e2-micro"
+  default     = "e2-standard-2"
   description = "Tipo da máquina"
 }
 
